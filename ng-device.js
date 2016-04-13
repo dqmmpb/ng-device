@@ -1,6 +1,6 @@
 (function (angular) {
     "use strict";
-    angular.module("ng.device")
+    angular.module("ng-device", ["reTree"])
         .service('deviceUtils', ['device', function($window) {
 
             this.isMobile = function () {

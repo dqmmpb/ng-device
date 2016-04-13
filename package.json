@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/dqmmpb/ng-device/issues"
   },
-  "homepage": "https://github.com/dqmmpb/ng-device"
+  "homepage": "https://github.com/dqmmpb/ng-device",
+  "dependencies": {
+    "re-tree": "~0.0.2"
+  }
 }

@@ -69,7 +69,7 @@
                     device.minimalUi = !device.webView &&
                       (ipod || iphone) &&
                       (osVersionArr[0] * 1 === 7 ? osVersionArr[1] * 1 >= 1 : osVersionArr[0] * 1 > 7) &&
-                      angular.element('meta[name="viewport"]').length > 0 && angular.element('meta[name="viewport"]').attr('content').indexOf('minimal-ui') >= 0;
+                      document.getElementsByName('viewport').length > 0 && document.getElementsByName('viewport')[0].attributes['content'].value.indexOf('minimal-ui')>= 0;
                 }
 
                 // Check for status bar and fullscreen app mode
